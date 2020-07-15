@@ -1,0 +1,13 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    background-color: coral;
+}
+
+.pagination {
+    background-color: pink ;
+
+    .last a{
+        color: red;
+    }
+}

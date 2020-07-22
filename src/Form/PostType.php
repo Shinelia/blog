@@ -2,6 +2,7 @@
 
 namespace App\Form;
 
+use App\Entity\Category;
 use App\Entity\Post;
 use App\Entity\Tag;
 use Symfony\Component\Form\AbstractType;
@@ -26,9 +27,12 @@ class PostType extends AbstractType
             
                 // used to render a select box, check boxes or radios
                 'multiple' => true,
-                // 'expanded' => true, 
-
-              
+                // 'expanded' => true,   
+            ])
+            ->add('category', EntityType::class, [
+                'class' => Category::class,
+                'choice_label' => 'name',
+                'expanded' => true,
             ])
         ;
     }

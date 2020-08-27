@@ -1,7 +1,7 @@
 Project blog
 
-
-# create .env.local
+#Install
+create .env.local
 composer install
 php bin/console do:da:cr 
 php bin/console do:mi:mi

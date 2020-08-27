@@ -19,6 +19,6 @@ npm run dev<br/>
 use script : bin/hafilo.sh
 
 
-**DISABLE_HTML5_VALIDATION disable validation in all forms**
+**DISABLE_HTML5_VALIDATION disable validation in all forms**<br/>
 If you want form validation to be disabled when you run tests, create an .env.test.local with:
-DISABLE_HTML5_VALIDATION=true
+*DISABLE_HTML5_VALIDATION=true*

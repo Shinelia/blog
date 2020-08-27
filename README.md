@@ -1,4 +1,4 @@
-Projet blog
+Project blog
 
 
 # create .env.local
@@ -8,9 +8,6 @@ php bin/console do:mi:mi
 npm install
 npm run dev
 
-# ou si vous utilisez yarn
-# yarn install
-# yarn encore dev
 
 symfony serve to run
 
@@ -23,9 +20,6 @@ Example .env.local:
 APP_ENV=dev
 DATABASE_URL=mysql://username:password@ip/blog?serverVersion=mariadb-10.3.22
 
-
-
-DISABLE_HTML5_VALIDATION=false 
 
 DISABLE_HTML5_VALIDATION disable validation in all forms
 
